@@ -72,8 +72,13 @@ button:hover {
 }
 .marktable tbody tr:hover {
     background: #c1f0c1;
-    transform: scale(1.02);
+    transform: scale(1.01);
+    transition: ease-in-out;
 }
+
+/* form{
+    display: flex;
+} */
 @media screen and (max-width: 768px) {
     .marktable {
         width: 100%;
